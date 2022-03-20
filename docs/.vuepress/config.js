@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/vuepress-test/',
     title: 'OpenUAS',
     description: 'Testing the capabilities of vuepress',
     themeConfig: {
@@ -16,6 +17,7 @@ module.exports = {
         docsDir: 'docs',
         docsBranch:'main',
         editLinks: true,
+        smoothScroll: true
       },
       markdown: {
         lineNumbers: true
